@@ -1,0 +1,49 @@
+@import  "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
+body {
+    font-family: 'Roboto',sans-serif;
+    color: #333333;
+    overflow-x: hidden;
+    background: #eeeeee;
+    max-width: 100vw;
+}
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.banner3 {
+    position: absolute;
+    background-color: #437af8;
+    height: 300px;
+    width: 100%;
+    z-index: -1;
+}
+@media screen and (max-width: 500px) {
+    .banner3 {
+        height: 200px;
+    }
+    .card-panelz {
+        margin-top: 30px;
+        position: relative;
+    }
+}
+big {
+    font-size: 25px;
+    padding-top: 15px;
+}
+.container-fluid {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card-panelz {
+    background: #fff;
+    padding: 35px;
+    color: #666666
+}
+.social {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.brand-logo {
+    font-size: 20px !important /* note use of "!important" to override any other stylesheets */;
+    text-transform: uppercase;
+}
