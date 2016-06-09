@@ -156,6 +156,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 25px !important/* note use of "!important" to override any other stylesheets */
     ;
 }
+blockquote { border-left:5px solid #ff9800 }
 .content-intro {
     position: absolute;
     width: 100%;
