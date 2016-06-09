@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, h6 {
      font-family: 'Sanchez', serif;
 
 }
+.collapsible-header {
+    font-size: 20px;
+}
 .last-content {
     display: block;
     margin-right: auto;
