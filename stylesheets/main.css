@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Sanchez);
-
 .bggrey {
     background-color: #eeeeee;
 }
@@ -26,14 +25,21 @@ body {
     color: #444444;
     background-color: #eeeeee
 }
-h1, h2, h3, h4, h5, h6 {
-     font-family: 'Sanchez', serif;
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Sanchez', serif;
 }
+
 .collapsible-header {
     font-size: 25px;
     text-align: center;
 }
+
 .last-content {
     display: block;
     margin-right: auto;
@@ -153,34 +159,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .brand-logo {
-    font-size: 20px !important/* note use of "!important" to override any other stylesheets */;
+    font-size: 20px !important/* note use of "!important" to override any other stylesheets */
+    ;
     font-weight: inherit;
 }
-blockquote { border-left:5px solid #ff9800 }
+
+blockquote {
+    border-left: 5px solid #1565c0 !important
+}
+
 .content-intro {
     position: absolute;
     width: 100%;
     padding-bottom: 200px;
-    background: #1976D2 !important;
+    background: #6c8693 !important;
     z-index: -1
 }
+
 nav {
-    background: #1565C0 !important;
+    background: #627884 !important;
 }
+
 .tabs {
-    background: #1976D2 !important;
+    background: #6c8693 !important;
     padding-bottom: 25px!important;
-    
 }
+
 .tabs .tab a {
     color: white !important;
 }
+
 .tabs .tab a:hover {
     color: #eeeeee !important;
 }
+
 .tabs .indicator {
-    background-color: #ff9800 !important;
+    background-color: #ececec !important;
 }
+
 .page {
     background: #fff;
     padding: 35px;
@@ -188,5 +204,19 @@ nav {
     margin-top: 10px !important;
     border-radius: 1px;
     z-index: 1;
-    height: 600px !important
+    height: auto !important
+}
+
+.tiny {
+    font-size: 1rem;
+}
+
+ul.listed {
+    font-size: 1.15rem;
+    margin: 50px;
+    list-style-type: circle !important;
+}
+
+p {
+    font-size: 1.1rem !important
 }
