@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .brand-logo {
-    font-size: 15px !important/* note use of "!important" to override any other stylesheets */;
+    font-size: 20px !important/* note use of "!important" to override any other stylesheets */;
     font-weight: inherit;
 }
 blockquote { border-left:5px solid #ff9800 }
