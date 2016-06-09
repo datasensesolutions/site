@@ -161,14 +161,14 @@ blockquote { border-left:5px solid #ff9800 }
     position: absolute;
     width: 100%;
     padding-bottom: 200px;
-    background: #4B77BE !important;
+    background: #42A5F5 !important;
     z-index: -1
 }
 nav {
-    background: #446CB3 !important;
+    background: #2196F3 !important;
 }
 .tabs {
-    background: #4B77BE !important;
+    background: #42A5F5 !important;
     padding-bottom: 25px!important;
     
 }
