@@ -42,16 +42,18 @@
             <div class="nav-wrapper nav-home z-depth-0">
                 <div class="container-fluid">
                     <a href="/site/index.html" class="brand-logo">datasense solutions</a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="/site/consulting/">Consulting</a></li>
-                        <li class="active"><a class="dropdown-button" href="#!" data-activates="training">Training<i class="material-icons right">arrow_drop_down</i></a></li>
+                        
                         <li><a href="/site/software/">Software</a></li>
                         <li><a href="/site/events/">Events</a></li>
-                        <li><a class="dropdown-button" href="#!" data-activates="about">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="training">Training<i class="material-icons right tiny-nav">arrow_drop_down</i></a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="about">About Us<i class="material-icons right tiny-nav">arrow_drop_down</i></a></li>
                     </ul>
                 </div>
-                <ul class="side-nav" id="mobile-demo">
+                <!-- Slide Out Drawer for Mobile -->
+                <ul class="side-nav" id="mobile">
                     <img src="/site/img/dss_logo.png" class="center-block circle" style="margin-top: 10px">
                     <h5 class="center grey-text text-darken-2">DataSense Solutions</h5>
                     <h6 class="center grey-text text-darken-2">Waltham, MA</h6>
@@ -59,14 +61,14 @@
                     <li>
                         <ul class="collapsible collapsible-accordion">
                             <li><a class="collapsible-header waves-effect" style="text-align: left">Training</a>
-                              <div class="collapsible-body">
-                                <ul>
-                                    <li><a href="/site/training/index.html">Training Services</a></li>
-                                    <li><a href="/site/training/businessobjects.html">Business Objects</a></li>
-                                    <li><a href="/site/training/datawarehousing.html">Data Warehousing and BI</a></li>
-                                    <li><a href="/site/training/directions.html">Directions</a></li>
-                                </ul>
-                              </div>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="/site/training/index.html">Training Services</a></li>
+                                        <li><a href="/site/training/businessobjects.html">Business Objects</a></li>
+                                        <li><a href="/site/training/datawarehousing.html">Data Warehousing and BI</a></li>
+                                        <li><a href="/site/training/directions.html">Directions</a></li>
+                                    </ul>
+                                </div>
                             </li>
                         </ul>
                     </li>
@@ -75,14 +77,14 @@
                     <li>
                         <ul class="collapsible collapsible-accordion">
                             <li><a class="collapsible-header waves-effect" style="text-align: left">About Us</a>
-                              <div class="collapsible-body">
-                                <ul>
-                                    <li><a href="/site/about/index.html">About Us</a></li>
-                                    <li><a href="/site/about/partners.html">Partners</a></li>
-                                    <li><a href="/site/about/contact.html">Contact</a></li>
-                                    <li><a href="/site/about/jobopportunites">Job Opportunities</a></li>
-                                </ul>
-                              </div>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="/site/about/index.html">About Us</a></li>
+                                        <li><a href="/site/about/partners.html">Partners</a></li>
+                                        <li><a href="/site/about/contact.html">Contact</a></li>
+                                        <li><a href="/site/about/jobopportunites">Job Opportunities</a></li>
+                                    </ul>
+                                </div>
                             </li>
                         </ul>
                     </li>
@@ -91,210 +93,180 @@
         </nav>
         <!-- End Navigation -->
     </header>
-    <div class="row">
         <div class="content-intro"></div>
-
-    </div>
     <div class="row">
         <div class="col l10 offset-l1 s12">
             <div class="page" style="height:auto">
                 <div class="container-fluid">
                     <h3>DataSense Training Facility</h3>
                     <div class="row">
-                        <div class="col m6 s12">
-                           <p>Location:</p> 
-                           <p>DataSense Solutions, Inc.<br>
-                              230 Second Ave. Suite 130<br>
-                              Waltham, MA 02541</p>
+                        <div class="col m3 s12">
+                            <p>Location:</p>
+                            <p>DataSense Solutions, Inc.
+                                <br> 230 Second Ave. Suite 130
+                                <br> Waltham, MA 02541</p>
                         </div>
-                        <div class="col m6 s12">
-                            <img class="materialboxed" src="/site/img/230secondavenue.jpg" data-caption="DataSense Training Facility in Waltham, MA">
+                        <div class="col m5 s12">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.7838226450335!2d-71.26527288439146!3d42.389751479184824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e39cb5800b3d7b%3A0x10cb68699edf3e8!2sDataSense+Solutions!5e0!3m2!1sen!2sus!4v1465592228860" width="100%" height="235px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col m4 hide-on-small-only">
+                            <img class="materialboxed" width="100%" src="/img/230secondavenue.jpg" data-caption="DataSense Training Facility in Waltham, MA">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col m6 s12">
-                           <p>Get driving directions from points...</p> 
-                           <div class="row">
+                        <div class="col m12 s12">
+                            <p>Get driving directions from points...</p>
+                            <div class="row">
                                 <div class="col s12">
-                                  <ul class="tabs" style="margin-bottom: 10px;">
-                                    <li class="tab col s3"><a class="active" href="#north">North</a></li>
-                                    <li class="tab col s3"><a href="#east">East</a></li>
-                                    <li class="tab col s3"><a href="#south">South</a></li>
-                                    <li class="tab col s3"><a href="#west">West</a></li>
-                                  </ul>
+                                    <ul class="tabs" style="margin-bottom: 10px;">
+                                        <li class="tab col s3"><a href="#north">North</a></li>
+                                        <li class="tab col s3"><a href="#east">East</a></li>
+                                        <li class="tab col s3"><a href="#south">South</a></li>
+                                        <li class="tab col s3"><a href="#west">West</a></li>
+                                    </ul>
                                 </div>
                                 <div id="north" class="col s12">
-                                    Take I-95 South and take Exit 27B, merging onto Winter St. Follow Winter St. 
-                                    and bear right after the off ramp. Make a U-turn onto Winter St. and take a right 
-                                    onto Second Ave. (0.5 miles). 230 Second Ave. is on the left, across the street 
-                                    from the ADP building. Free parking is available in the first level parking lot, 
-                                    entered by taking the immediate left after entering the driveway. The training 
-                                    center is located on the first floor, Suite 130.</div>
-                                <div id="east" class="col s12">From Logan International Airport follow the signs to the 
-                                    Ted Williams Tunnel then to I-90 West and follow it to I-95 North. Take I-95 North and 
-                                    take Exit 26 toward Waltham/Weston, staying right when the off ramp forks. Follow Rt. 20 
-                                    East, staying in the left lane. At the second set of lights (0.5 miles) take a left onto 
-                                    Stow St. Follow Stow St. for a short distance (0.2 miles) and take a left onto Main St. 
-                                    After crossing the overpass, take the first right at the set of lights onto Bear Hill Rd. 
-                                    Bear Hill Rd. becomes Second Ave. (0.8 miles). 230 Second Ave. is on the right, across the 
-                                    street from the ADP building. Free parking is available in the first level parking lot, 
-                                    entered by taking the immediate left after entering the driveway. The training center is 
-                                    located on the first floor, Suite 130.</div>
-                                <div id="south" class="col s12">Take I-95 North and take Exit 26 toward Waltham/Weston, staying 
-                                    right when the off ramp forks. Follow Rt. 20 East, staying in the left lane. At the second set of 
-                                    lights (0.5 miles) take a left onto Stow St. Follow Stow St. for a short distance (0.2 miles) and 
-                                    take a left onto Main St. After crossing the overpass, take the first right at the set of lights 
-                                    onto Bear Hill Rd. Bear Hill Rd. becomes Second Ave. (0.8 miles). 230 Second Ave. is on the right,
-                                    across the street from the ADP building. Free parking is available in the first level parking lot, 
-                                    entered by taking the immediate left after entering the driveway. The training center is located 
-                                    on the first floor, Suite 130.</div>
-                                <div id="west" class="col s12">Take I-90 East and follow it to I-95 North. Take I-95 North and take Exit 26 
-                                toward Waltham/Weston, staying right when the off ramp forks. Follow Rt. 20 East, staying in the left lane. 
-                                At the second set of lights (0.5 miles) take a left onto Stow St. Follow Stow St. for a short distance 
-                                (0.2 miles) and take a left onto Main St. After crossing the overpass, take the first right at the set of 
-                                lights onto Bear Hill Rd. Bear Hill Rd. becomes Second Ave. (0.8 miles). 230 Second Ave. is on the right, 
-                                across the street from the ADP building. Free parking is available in the first level parking lot, entered 
-                                by taking the immediate left after entering the driveway. The training center is located on the first floor, 
-                                Suite 130.</div>
+                                    <h3>North</h3> Take I-95 South and take Exit 27B, merging onto Winter St. Follow Winter St. and bear right after the off ramp. Make a U-turn onto Winter St. and take a right onto Second Ave. (0.5 miles). 230 Second Ave. is on the left, across the street from the ADP building. Free parking is available in the first level parking lot, entered by taking the immediate left after entering the driveway. The training center is located on the first floor, Suite 130.</div>
+                                <div id="east" class="col s12">
+                                    <h3>East</h3>
+                                    From Logan International Airport follow the signs to the Ted Williams Tunnel then to I-90 West and follow it to I-95 North. Take I-95 North and take Exit 26 toward Waltham/Weston, staying right when the off ramp forks. Follow Rt. 20 East, staying in the left lane. At the second set of lights (0.5 miles) take a left onto Stow St. Follow Stow St. for a short distance (0.2 miles) and take a left onto Main St. After crossing the overpass, take the first right at the set of lights onto Bear Hill Rd. Bear Hill Rd. becomes Second Ave. (0.8 miles). 230 Second Ave. is on the right, across the street from the ADP building. Free parking is available in the first level parking lot, entered by taking the immediate left after entering the driveway. The training center is located on the first floor, Suite 130.</div>
+                                <div id="south" class="col s12">
+                                    <h3>South</h3> Take I-95 North and take Exit 26 toward Waltham/Weston, staying right when the off ramp forks. Follow Rt. 20 East, staying in the left lane. At the second set of lights (0.5 miles) take a left onto Stow St. Follow Stow St. for a short distance (0.2 miles) and take a left onto Main St. After crossing the overpass, take the first right at the set of lights onto Bear Hill Rd. Bear Hill Rd. becomes Second Ave. (0.8 miles). 230 Second Ave. is on the right, across the street from the ADP building. Free parking is available in the first level parking lot, entered by taking the immediate left after entering the driveway. The training center is located on the first floor, Suite 130.</div>
+                                <div id="west" class="col s12">
+                                    <h3>West</h3>
+                                    Take I-90 East and follow it to I-95 North. Take I-95 North and take Exit 26 toward Waltham/Weston, staying right when the off ramp forks. Follow Rt. 20 East, staying in the left lane. At the second set of lights (0.5 miles) take a left onto Stow St. Follow Stow St. for a short distance (0.2 miles) and take a left onto Main St. After crossing the overpass, take the first right at the set of lights onto Bear Hill Rd. Bear Hill Rd. becomes Second Ave. (0.8 miles). 230 Second Ave. is on the right, across the street from the ADP building. Free parking is available in the first level parking lot, entered by taking the immediate left after entering the driveway. The training center is located on the first floor, Suite 130.</div>
                             </div>
                         </div>
-                        <div class="col m6 s12">
-                            <img class="materialboxed" src="/site/img/map.jpg" data-caption="DataSense Training Facility in Waltham, MA">
-                        </div>
+                        
                     </div>
                     <h3>Local Accommodations</h3>
                     <div class="row">
                         <div class="col s12 m6">
-                          <div class="card">
-                            <div class="card-content">
-                              <span class="card-title">Westin Hotel</span>
-                              <p>
-                                  70 Third Avenue<br>
-                                  Waltham, MA<br>
-                                  (781) 290-5600<br>
-                                  Shuttle Service: Free<br>
-                                  Distance to Center: 0.9 miles
-                              </p>
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title"><a href="http://www.westinwalthamboston.com/">Westin Hotel</a></span>
+                                    <p>
+                                        70 Third Avenue
+                                        <br> Waltham, MA
+                                        <br> <a href="tel:7812905600" class="grey-text text-darken-2">(781) 290-5600</a>
+                                        <br> Shuttle Service: Free
+                                        <br> Distance to Center: 0.9 miles
+                                    </p>
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="col s12 m6">
-                          <div class="card">
-                            <div class="card-content">
-                              <span class="card-title">HYATT house Boston/Waltham</span>
-                              <p>
-                                  54 Fourth Avenue<br>
-                                  Waltham, MA<br>
-                                  (781) 290-0026<br>
-                                  Shuttle Service: Free<br>
-                                  Distance to Center: 1.1 miles
-                              </p>
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title"><a href="http://waltham.house.hyatt.com/en/hotel/home.html">HYATT House Boston/Waltham</a></span>
+                                    <p>
+                                        54 Fourth Avenue
+                                        <br> Waltham, MA
+                                        <br> <a href="tel:7812900026" class="grey-text text-darken-2">(781) 290-0026</a>
+                                        <br> Shuttle Service: Free
+                                        <br> Distance to Center: 1.1 miles
+                                    </p>
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="col s12 m6">
-                          <div class="card">
-                            <div class="card-content">
-                              <span class="card-title">Embassy Suites</span>
-                              <p>
-                                  550 Winter Street<br>
-                                  Waltham, MA<br>
-                                  (781) 890-6767<br>
-                                  Shuttle Service: Free<br>
-                                  Distance to Center: 0.7 miles
-                              </p>
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title"><a href="http://embassysuites3.hilton.com/en/hotels/massachusetts/embassy-suites-by-hilton-boston-waltham-BOSWSES/index.html">Embassy Suites</a></span>
+                                    <p>
+                                        550 Winter Street
+                                        <br> Waltham, MA
+                                        <br> <a href="tel:7818906767" class="grey-text text-darken-2">(781) 890-6767</a>
+                                        <br> Shuttle Service: Free
+                                        <br> Distance to Center: 0.7 miles
+                                    </p>
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="col s12 m6">
-                          <div class="card">
-                            <div class="card-content">
-                              <span class="card-title">Holiday Inn Express</span>
-                              <p>
-                                  385 Winter Street<br>
-                                  Waltham, MA<br>
-                                  (781) 890-2800<br>
-                                  Shuttle Service: Free<br>
-                                  Distance to Center: 0.9 miles
-                              </p>
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title"><a href="http://www.ihg.com/holidayinnexpress/hotels/us/en/waltham/wtmma/hoteldetail?qRef=sr&qDest=Waltham%2C+MA%2C+United+States&qRpn=1&qChld=0&qSrt=sBR&qSHp=1&qSmP=3&qGRM=0&qLng=-71.236099&qRdU=1&qRms=1&srb_u=1&qAdlt=1&qPSt=0&qFRA=1&qLat=42.3764&qRRSrt=rt&qRad=30&qRpp=20&qBrs=6c.hi.ex.rs.ic.cp.in.sb.cw.cv.ul.vn&qWch=0&icdv=99504425#">Holiday Inn Express</a></span>
+                                    <p>
+                                        385 Winter Street
+                                        <br> Waltham, MA
+                                        <br> <a href="tel:7818902800" class="grey-text text-darken-2">(781) 890-2800</a>
+                                        <br> Shuttle Service: Free
+                                        <br> Distance to Center: 0.9 miles
+                                    </p>
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="col s12 m6">
-                          <div class="card">
-                            <div class="card-content">
-                              <span class="card-title">Homes Suites Inn</span>
-                              <p>
-                                  455 Totten Pond Road<br>
-                                  Waltham, MA<br>
-                                  (781) 890-3000<br>
-                                  Shuttle Service: Taxi Service<br>
-                                  Distance to Center: 1.0 mile
-                              </p>
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title"><a href="http://www.homesuitesinn.com/">Home Suites Inn</a></span>
+                                    <p>
+                                        455 Totten Pond Road
+                                        <br> Waltham, MA
+                                        <br> <a href="tel:7818903000" class="grey-text text-darken-2">(781) 890-3000</a>
+                                        <br> Shuttle Service: Taxi Service
+                                        <br> Distance to Center: 1.0 mile
+                                    </p>
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="col s12 m6">
-                          <div class="card">
-                            <div class="card-content">
-                              <span class="card-title">Homestead Studio Suites</span>
-                              <p>
-                                  52 Fourth Avenue<br>
-                                  Waltham, MA<br>
-                                  (781) 890-1333<br>
-                                  Shuttle Service: Taxi Service<br>
-                                  Distance to Center: 1.1 miles
-                              </p>
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title"><a href="http://www.extendedstayamerica.com/hotels/ma/boston/52-4th-ave">Homestead Studio Suites</a></span>
+                                    <p>
+                                        52 Fourth Avenue
+                                        <br> Waltham, MA
+                                        <br> <a href="tel:7818901333" class="grey-text text-darken-2">(781) 890-1333</a>
+                                        <br> Shuttle Service: Taxi Service
+                                        <br> Distance to Center: 1.1 miles
+                                    </p>
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="col s12 m6">
-                          <div class="card">
-                            <div class="card-content">
-                              <span class="card-title">Newton Marriott Hotel</span>
-                              <p>
-                                  2345 Commonwealth Avenue<br>
-                                  Newton, MA<br>
-                                  (617) 969-1000<br>
-                                  Shuttle Service: Taxi Service<br>
-                                  Distance to Center: 5.1 miles
-                              </p>
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title"><a href="http://www.marriott.com/hotels/travel/bosnt-boston-marriott-newton/">Newton Marriott Hotel</a></span>
+                                    <p>
+                                        2345 Commonwealth Avenue
+                                        <br> Newton, MA
+                                        <br> <a href="tel:6179691000" class="grey-text text-darken-2">(617) 969-1000</a>
+                                        <br> Shuttle Service: Taxi Service
+                                        <br> Distance to Center: 5.1 miles
+                                    </p>
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="col s12 m6">
-                          <div class="card">
-                            <div class="card-content">
-                              <span class="card-title">Best Western TLC Hotel</span>
-                              <p>
-                                  380 Winter Street<br>
-                                  Waltham, MA<br>
-                                  (781) 890-7800<br>
-                                  Shuttle Service: Taxi Service<br>
-                                  Distance to Center: 1.0 mile
-                              </p>
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title"><a href="http://book.bestwestern.com/bestwestern/US/MA/Waltham-hotels/BEST-WESTERN-TLC-Hotel/Hotel-Overview.do?propertyCode=22009&cm_mmc=BL-_-Google-_-GMB-_-22009">Best Western TLC Hotel</a></span>
+                                    <p>
+                                        380 Winter Street
+                                        <br> Waltham, MA
+                                        <br> <a href="tel:7818907800" class="grey-text text-darken-2">(781) 890-7800</a>
+                                        <br> Shuttle Service: Taxi Service
+                                        <br> Distance to Center: 1.0 mile
+                                    </p>
+                                </div>
                             </div>
-                          </div>
                         </div>
                     </div>
                     <h3>Cancellation, rescheduling, and refund processes for classroom and virtual classroom cancellations and rescheduling:</h3>
-                    <p class="indent">Classroom and virtual classroom cancellations and rescheduling will only be processed by calling our office 
-                    directly at +1-781-487-2625 X200.</p>
-                    <p class="indent">We will confirm all cancellations or rescheduling requests by e-mail.  Financial responsibility remains 
-                    with the customer for all class fees unless a proper cancellation or rescheduling request is received and confirmed prior 
-                    to the start of the class.</p>
-                    <p>The following classroom cancellation and rescheduling fee schedule applies:</P>
-                    <p><ul style="list-style-type: none;">
-                        <li class="indent">More than 11 business - days no charge</li>
-                        <li class="indent">4 - 10 business days - 50% of the total class fee</li>
-                        <li class="indent">3 or fewer business days - 100% of the total class fee</li>
-                    </ul></p>
+                    <p class="indent">Classroom and virtual classroom cancellations and rescheduling will only be processed by calling our office directly at +1-781-487-2625 X200.</p>
+                    <p class="indent">We will confirm all cancellations or rescheduling requests by e-mail. Financial responsibility remains with the customer for all class fees unless a proper cancellation or rescheduling request is received and confirmed prior to the start of the class.</p>
+                    <p>The following classroom cancellation and rescheduling fee schedule applies:</p>
+                        <ul style="list-style-type: none;">
+                            <li class="indent">More than 11 business - days no charge</li>
+                            <li class="indent">4 - 10 business days - 50% of the total class fee</li>
+                            <li class="indent">3 or fewer business days - 100% of the total class fee</li>
+                        </ul>
                     <p>*Date of cancellation or rescheduling request (measured from the first day of the class) Applicable fees.</p>
                 </div>
-
             </div>
         </div>
-    </div>
     </div>
     <footer class="page-footer grey lighten-2">
         <div class="container">
