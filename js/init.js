@@ -9,6 +9,7 @@
         $('.parallax').parallax();
         $('.modal-trigger').leanModal();
         $('ul.tabs').tabs();
+        $('.tabs-wrapper .row').pushpin({ top: $('.tabs-wrapper').offset().top });
         $(document).ready(function () {
             Materialize.updateTextFields();
         });
