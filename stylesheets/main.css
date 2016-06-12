@@ -267,4 +267,9 @@ p {
         padding-left: 0;
       }
     }
-          
+.stuck {
+    position:fixed;
+    z-index:100;
+    width:100%;
+    top:0;
+}
