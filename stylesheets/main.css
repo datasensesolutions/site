@@ -1,6 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Sanchez);
+.bggrey {
+    background-color: #eeeeee;
+}
+
+.bio {
+    padding: 2%;
+}
+
+.bio h4 {
+    color: #0099ff;
+}
+
 html {
     overflow-x: hidden;
 }
@@ -34,7 +46,26 @@ h6 {
     margin-left: auto;
 }
 
+.previous-block a {
+    color: #333333;
+}
 
+.pointer {
+    cursor: pointer;
+}
+
+.intro {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #446CB3;
+    color: #fff;
+}
+
+.position {
+    background-color: #6060c1;
+    color: white;
+    padding: 25px;
+}
 
 .tabs .indicator {
     position: absolute;
@@ -127,6 +158,7 @@ h6 {
     font-size: 20px !important/* note use of "!important" to override any other stylesheets */
     ;
     font-weight: inherit;
+    margin-left: 35px;
 }
 
 blockquote {
@@ -191,12 +223,66 @@ ul.listed {
 p {
     font-size: 1.1rem !important
 }
+
 .link {
     color: #b11a3b !important;
     font-weight: 500;
 }
+
 .indent {
     margin-left: 5%;
     color: #777 !important;
+}
 
+.light {
+    font-family: 'RobotoDraft', arial, sans-serif;
+}
+
+.software_intro {
+    padding-top: 20px;
+    padding-bottom: 200px;
+    background-color: #6c8693;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.show {
+    display: block !important;
+}
+
+.show i {
+    font-size: 25px !important;
+}
+
+.site-header {
+    background: #627884;
+    margin: 0 !important;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.header-text {
+    margin-left: 25px;
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 300;
+}
+.navigation-container-full {
+    margin-left: 25px;
+}
+.index .page {
+    background: #fff;
+    padding: 35px;
+    color: #666666;
+    margin-top: 10px !important;
+    border-radius: 1px;
+    z-index: 1;
+    height: auto !important;
+    padding-bottom: 75px;
+    margin-bottom: 55px; 
+}
+.index nav {
+    background: #6c8693
 }
