@@ -258,12 +258,12 @@ p {
     background: #6c8693 !important;
 }
 
-    header, main, footer {
+    .index header, main, footer {
       padding-left: 240px;
     }
 
     @media only screen and (max-width : 992px) {
-      header, main, footer {
+      .index header, main, footer {
         padding-left: 0;
       }
     }
