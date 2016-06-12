@@ -258,7 +258,7 @@ p {
     background: #6c8693 !important;
 }
 
-    .index header, .index main, .index footer {
+    .index header, .index main {
       padding-left: 240px;
     }
 
