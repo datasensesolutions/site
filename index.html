@@ -13,7 +13,7 @@
     <!-- Google Material Design Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- Link to External Stylesheets -->
-    <link rel="stylesheet" href="/site/stylesheets/main.css">
+    <link rel="stylesheet" href="/stylesheets/main.css">
     <link rel="stylesheet" href="/site/stylesheets/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <!-- Website Title -->
@@ -23,8 +23,11 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 </head>
 
-<body>
+<body class="index">
     <header>
+        <div class="site-header">
+            <h4 class="header-text">DataSense Solutions</h4>
+        </div>
         <!-- Navigation -->
         <ul id="training" class="dropdown-content">
             <li><a href="/site/training/index.html">Training Services</a></li>
@@ -40,12 +43,11 @@
         </ul>
         <nav class="z-depth-0">
             <div class="nav-wrapper nav-home z-depth-0">
-                <div class="container-fluid">
-                    <a href="/site/index.html" class="brand-logo">datasense solutions</a>
+                <div class="navigation-container-full">
                     <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
+                    <ul class="hide-on-med-and-down">
                         <li><a href="/site/consulting/">Consulting</a></li>
-                        
+
                         <li><a href="/site/software/">Software</a></li>
                         <li><a href="/site/events/">Events</a></li>
                         <li><a class="dropdown-button" href="#!" data-activates="training">Training<i class="material-icons right tiny-nav">arrow_drop_down</i></a></li>
@@ -94,41 +96,22 @@
         <!-- End Navigation -->
     </header>
     <div class="row">
-        <div class="content-intro"></div>
-        <ul class="tabs">
-            <li class="tab col s1"><a href="#home">Home</a></li>
-            <li class="tab col s1"><a href="#stages">Stages of BI</a></li>
-            <li class="tab col s1"><a href="#news">News</a></li>
-        </ul>
-    </div>
-    <div class="row">
         <div class="col l10 offset-l1 s12">
             <div class="page" style="height:auto">
                 <div class="container-fluid">
                     <div id="home">
-                        <h3 class="light">Business Intelligence,<br> the Key to your Business's Success...</h3>
+                        <h3>Business Intelligence,<br> the Key to your Business's Success...</h3>
                         <p>Today, companies are feeling the pressure to compete like never before. In this aggressive and dynamic business climate, the advantage goes to companies that can respond to the rapidly changing demands of their customers, the requirements of their partners and the needs of their employees, regardless of where they may be located. Quick and easy access to information throughout the enterprise, with the best analytical value possible, is critical to good decision making.</p>
-                        <h3 class="flow-text">Mailing List</h3>
-                        <div class="divider"></div>
                         <p class="">Enter your contact info to receive News &amp; Information about DataSense and Business Objects. </p>
-                        <form class="increased-margin-top">
-                            <div class="input-field">
-                                <input id="name" name="name" type="text" class="validate">
-                                <label for="name">Name</label>
-                            </div>
-                            <div class="input-field">
-                                <input id="email" name="email" type="email" class="validate">
-                                <label for="email" data-error="Please enter a valid email address">Email</label>
-                                <input class="btn right blue darken-3 waves-effect waves-light" type="submit" name="submit" value="join">
-                            </div>
-                        </form>
-                    </div>
-                    <div id="stages">
-                        <h3 class="light">The Stages of Business Intelligence</h3>
-                        <blockquote>
 
-                        </blockquote>
-                        <ul class="collapsible popout" data-collapsible="accordion">
+                    </div>
+                </div>
+            </div>
+            <div class="page" style="height:auto">
+                <div class="container-fluid">
+                    <div id="stages">
+                        <h3>The Stages of Business Intelligence</h3>
+                        <ul class="collapsible z-depth-0" data-collapsible="accordion">
                             <li>
                                 <div class="collapsible-header collapsible-header-index light active">Data Warehousing</div>
                                 <div class="collapsible-body">
@@ -149,8 +132,12 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="page" style="height:auto">
+                <div class="container-fluid">
                     <div id="news">
-                        <h5>DataSense News/Events</h5>
+                        <h3>DataSense News/Events</h3>
                         <div class="divider"></div>
                         <p class="">New Hosted Virtual SAP Training Classes with DataSense Solutions!</p>
                         <p class="">DataSense Solutions is now offering Hosted Virtual SAP Training Classes. Learn in a worry free environment, with system provided and certified SAP Consultant on hand. <a href="http://datasensesolutions.com/hosted%20virtual%20classes.pdf">Learn more...</a></p>
@@ -164,6 +151,19 @@
                                 For the cost of a single class, sign up for the SAP Learning Hub, to gain access to a vast selection of learning content and 12-month UNLIMITED online training classes. <a href="http://www.datasensesolutions.com/learning_hub.pdf">Learn more...</a></p>
                             <p class="">Read the article in the special April issue of CIO Review, focusing on SAP Technologies. <a href="http://www.datasensesolutions.com/CIO_Review2015.pdf">CIO Review Selects DataSense Solutions for '100 Most Promising SAP Solution Providers 2015'.</a></p>
                     </div>
+                    <h5>Mailing List</h5>
+
+                    <form class="increased-margin-top">
+                        <div class="input-field">
+                            <input id="name" name="name" type="text" class="validate">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-field">
+                            <input id="email" name="email" type="email" class="validate">
+                            <label for="email" data-error="Please enter a valid email address">Email</label>
+                            <input class="btn right blue darken-3 waves-effect waves-light" type="submit" name="submit" value="join">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -198,8 +198,8 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="/site/js/materialize.js"></script>
-    <script src="/site/js/init.js"></script>
+    <script src="/js/materialize.js"></script>
+    <script src="/js/init.js"></script>
 </body>
 
 </html>
