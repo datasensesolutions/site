@@ -122,6 +122,14 @@ h6 {
     font-weight: inherit;
     margin-left: 35px;
 }
+@media screen and (max-width: 992px) {
+    .brand-logo {
+        margin-left: 0 !important;
+    }
+    .page {
+        margin-top: 0 !important;
+    }
+}
 
 blockquote {
     border-left: 5px solid #1565c0 !important
@@ -153,7 +161,7 @@ nav {
 }
 
 .tabs .indicator {
-    background-color: #ececec !important;
+    background-color: #fff !important;
 }
 
 .page {
@@ -165,7 +173,6 @@ nav {
     z-index: 1;
     height: auto !important;
     padding-bottom: 75px;
-    
 }
 
 @media screen and (max-width: 992px) {
