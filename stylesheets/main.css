@@ -282,3 +282,6 @@ p {
 .collection .collection-item.avatar {
   padding-left: 10px !important;
 }
+.collection .collection-item .collection-text {
+  padding-right: 10px !important;
+}
