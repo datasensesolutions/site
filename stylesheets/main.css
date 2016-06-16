@@ -285,3 +285,6 @@ p {
 .collection .collection-item.avatar .collection-text {
   padding-right: 15px !important;
 }
+.collection .collection-item.avatar .title {
+  font-size: 15px !important;
+}
