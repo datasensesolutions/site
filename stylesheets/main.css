@@ -283,5 +283,5 @@ p {
   padding-left: 10px !important;
 }
 .collection .collection-item.avatar .collection-text {
-  margin-right: 15px !important;
+  padding-right: 15px !important;
 }
