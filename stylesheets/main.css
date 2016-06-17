@@ -288,3 +288,6 @@ p {
 .collection .collection-item.avatar span.title {
   font-size: 15px !important;
 }
+.sm {
+    height: 200px
+}
