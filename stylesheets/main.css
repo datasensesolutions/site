@@ -32,10 +32,6 @@ h6 {
     text-align: left !important;
 }
 
-.side-nav li ul li.active {
-    background-color: #627884 !important;
-}
-
 .tabs .indicator {
     position: absolute;
     bottom: 0;
