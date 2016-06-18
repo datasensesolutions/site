@@ -32,7 +32,7 @@ h6 {
     text-align: left !important;
 }
 
-.side-nav li.active {
+.side-nav li ul li.active {
     background-color: #627884 !important;
 }
 
