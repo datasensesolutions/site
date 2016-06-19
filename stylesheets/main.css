@@ -294,3 +294,6 @@ p {
 .sm {
     height: 200px
 }
+.collapsible-body ul li.active {
+    background-color: #6c8693;
+}
