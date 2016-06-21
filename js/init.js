@@ -1,7 +1,7 @@
 (function ($) {
     'use strict';
     $(function () {
-
+        $('.datepicker').pickadate({selectYears: 20});
         $('.button-collapse').sideNav();
         $('.collapsible').collapsible({
             accordion : false
@@ -11,7 +11,6 @@
         $('ul.tabs').tabs();
         $('.tabs-wrapper .row').pushpin({ top: $('.tabs-wrapper').offset().top });
         $('select').material_select();
-        $('.datepicker').pickadate({selectYears: 20});
         $(document).ready(function () {
             Materialize.updateTextFields();
         });
