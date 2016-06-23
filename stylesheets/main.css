@@ -37,9 +37,6 @@ h6 {
     font-size: 20px !important/* note use of "!important" to override any other stylesheets */;
     margin-left: 35px;
 }
-ul#mobile.side-nav { 
-    width: 50%;
-}
 
 .tabs .indicator {
     position: absolute;
