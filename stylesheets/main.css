@@ -32,6 +32,10 @@ h6 {
     text-align: left !important;
 }
 
+nav .nav-wrapper .container-fluid .brand-logo {
+    font-weight: 300;
+}
+
 .tabs .indicator {
     position: absolute;
     bottom: 0;
