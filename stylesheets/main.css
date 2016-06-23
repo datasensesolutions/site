@@ -218,6 +218,7 @@ p {
 }
 
 .light {
+    font-weight: 300;
     font-family: 'RobotoDraft', arial, sans-serif;
 }
 
