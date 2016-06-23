@@ -33,10 +33,12 @@ h6 {
 }
 
 .brand-logo {
-    font-weight: 300 !important;
+    font-weight: 200 !important;
+    font-size: 20px !important/* note use of "!important" to override any other stylesheets */;
+    margin-left: 35px;
 }
 li.brand-logo {
-    font-weight: 300 !important;
+    font-weight: 200 !important;
 }
 
 .tabs .indicator {
@@ -126,12 +128,6 @@ li.brand-logo {
     width: 35% !important;
 }
 
-.brand-logo {
-    font-size: 20px !important/* note use of "!important" to override any other stylesheets */
-    ;
-    font-weight: inherit;
-    margin-left: 35px;
-}
 @media screen and (max-width: 992px) {
     .brand-logo {
         margin-left: 0 !important;
