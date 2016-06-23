@@ -35,6 +35,9 @@ h6 {
 .brand-logo {
     font-weight: 300 !important;
 }
+li.brand-logo {
+    font-weight: 300 !important;
+}
 
 .tabs .indicator {
     position: absolute;
