@@ -213,7 +213,7 @@ p {
 }
 
 .indent {
-    margin-left: 5%;
+    text-indent: 5%;
     color: #777 !important;
 }
 
