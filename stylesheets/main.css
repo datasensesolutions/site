@@ -37,8 +37,8 @@ h6 {
     font-size: 20px !important/* note use of "!important" to override any other stylesheets */;
     margin-left: 35px;
 }
-li.brand-logo {
-    font-weight: 200 !important;
+ul#mobile.side-nav { 
+    width: 35%;
 }
 
 .tabs .indicator {
